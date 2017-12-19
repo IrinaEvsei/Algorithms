@@ -1,6 +1,20 @@
-Man1 Woman1 Woman2 Woman3
-Man2 Woman1 Woman3 Woman2
-Man3 Woman3 Woman2 Woman1
-Woman1 Man2 Man1 Man3
-Woman2 Man1 Man3 Man2
-Woman3 Man3 Man1 Man2
+M 0 :
+M-0 contract with W-0
+
+M 1 :
+M-1 contract with W-4
+
+M 2 :
+M-2 contract with W-2
+
+M 3 :
+M-3 contract with W-1
+
+M 4 :
+M-4 contract with W-3
+
+M-0 married to W-0
+M-3 married to W-1
+M-2 married to W-2
+M-4 married to W-3
+M-1 married to W-4

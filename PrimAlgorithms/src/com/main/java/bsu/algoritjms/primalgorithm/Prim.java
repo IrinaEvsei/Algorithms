@@ -1,8 +1,11 @@
 package com.main.java.bsu.algoritjms.primalgorithm;
 
-import static com.main.java.bsu.algoritjms.primalgorithm.Constants.MAX_VALUE;
-
 public class Prim {
+    public static final int MAX_VALUE = Integer.MAX_VALUE;
+    public static final int INF = Integer.MIN_VALUE;
+
+    public static final int WEIGHT = 2;
+
     private int[] labels;
     private boolean[] visited;
     private int[][] graph;

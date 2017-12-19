@@ -5,71 +5,74 @@ import java.util.*;
 public class StableMarriageProblem {
 
     public static void main(String[] args) {
-        // Preference order for 3 men
+        // список предпочтений для 5 мужчин
         int men[][] = {
-                {0,1,2},
-                {0,1,2},
-                {0,1,2}
+                {0,1,2,3,4},
+                {4,3,2,1,0},
+                {3,2,1,0,4},
+                {1,4,3,2,0},
+                {2,0,4,1,3}
         };
 
-        // Preference order for 3 women
+        // список предпочтений для 5 женщин
         int women[][] = {
-                {1,0,2},
-                {1,2,0},
-                {0,1,2}
+                {4,0,1,2,3},
+                {3,4,0,1,2},
+                {2,3,4,0,1},
+                {1,2,3,4,0},
+                {0,1,2,3,4}
         };
 
-        // Add all available men to a HashSet, so its easy to lookup remaining bachelors
+        // Добавляем всех имеющихся мужчин в HashSet, поэтому его легко найти оставшихся холостяков
         Set<Integer> availableMen = new HashSet <Integer> ();
         for (int i=0; i<men.length; i++) {
             availableMen.add(i);
         }
 
-        // Store alliance of a women in a HashMap.
-        // Null value means no alliance.
+        // Храним женщин в HashMap.
+        // Значение Null означает отсутствие
         Map<Integer, Integer> availableWomen = new HashMap <Integer, Integer> ();
         for (int i=0; i<women.length; i++) {
             availableWomen.put(i, null);
         }
 
-        // Loop till there are bachelor men available
+        // повторяется до тех пор, пока не будут доступны холостяки
         int size = availableMen.size();
         while (size > 0) {
             int currentBachelor = availableMen.iterator().next();
             System.out.println ("\nM " + currentBachelor + " :");
 
 
-            for (int w : men[currentBachelor]) // loop through preferences of this man
-            {
+            for (int w : men[currentBachelor]){ // перебираем предпочтения этого мужчины
 
                 Integer fiance = availableWomen.get(w);
 
-                if (fiance == null){ // this woman is not yet engaged
+                if (fiance == null){ // эта женщина еще не занята
 
                     availableWomen.put(w, currentBachelor);
                     availableMen.remove(currentBachelor);
                     System.out.println ("M-" + currentBachelor + " contract with W-" + w);
                     break;
                 }
-                else{               // this woman is currently engaged
+                else{// эта женщина в настоящее время занята
 
                     int prefForFiance = -1;
                     int prefForCurrentBachelor = -1;
-                    for (int k=0; k<women[w].length; k++)                    {
-                        if (women[w][k] == fiance) { // find preference order for current fiance
+                    for (int k=0; k<women[w].length; k++){
+                        if (women[w][k] == fiance) { // находим предпочтение для нынешнего жениха
                             prefForFiance = k;
                         }
 
-                        if (women[w][k] == currentBachelor) { // find preference order for current proposer
+                        if (women[w][k] == currentBachelor) { // находим предпочтение для текущего предложения
                             prefForCurrentBachelor = k;
                         }
                     }
 
-                    if (prefForCurrentBachelor < prefForFiance){ // nextBachelor has higher preference by this woman
+                    if (prefForCurrentBachelor < prefForFiance){ // следующий холостяк имеет более высокое предпочтение этой женщины
 
-                        availableWomen.put (w, currentBachelor); // accept current bachelor
+                        availableWomen.put (w, currentBachelor); // принять нынешнего холостяка
                         availableMen.remove(currentBachelor);
-                        availableMen.add(fiance); // return previous fiance to bachelors' pool
+                        availableMen.add(fiance); // вернуть предыдущего жениха в пул холостяков
                         System.out.println ("M-" + fiance + " is dumped by W-" + w);
                         System.out.println ("M-" + currentBachelor + " contract with W-" + w);
                         break;
@@ -80,7 +83,7 @@ public class StableMarriageProblem {
         }
 
 
-        // Print out the alliances
+        // печать пар
         System.out.println();
         Iterator<Map.Entry<Integer, Integer>> itr = availableWomen.entrySet().iterator();
         while (itr.hasNext()){
@@ -89,6 +92,17 @@ public class StableMarriageProblem {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 //public class StableMarriageProblem {
 //    static List<String> guys = Arrays.asList(
 //            new String[]{

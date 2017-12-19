@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="766c6059-ffc6-4a9d-8434-c9c2fb3e5393" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/../StableMarriageProblem/out/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,20 +13,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="StableMarriageProblem.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../StableMarriageProblem/src/com/main/java/bsu/algorithms/stablemarriageproblem/StableMarriageProblem.java">
+        <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/StableMarriageProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2023">
-              <caret line="119" column="84" lean-forward="true" selection-start-line="119" selection-start-column="84" selection-end-line="119" selection-end-column="84" />
+            <state relative-caret-position="105">
+              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../StableMarriageProblem/src/com/main/java/bsu/algorithms/stablemarriageproblem/data.txt">
+        <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+            <state relative-caret-position="264">
+              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -49,11 +49,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../StableMarriageProblem/src/com/main/java/bsu/algorithms/stablemarriageproblem/data.txt" />
-        <option value="$PROJECT_DIR$/../StableMarriageProblem/src/com/main/java/bsu/algorithms/stablemarriageproblem/StableMatching.java" />
-        <option value="$PROJECT_DIR$/../StableMarriageProblem/src/com/main/java/bsu/algorithms/stablemarriageproblem/Stable.java" />
-        <option value="$PROJECT_DIR$/../StableMarriageProblem/src/com/main/java/bsu/algorithms/stablemarriageproblem/Main.java" />
-        <option value="$PROJECT_DIR$/../StableMarriageProblem/src/com/main/java/bsu/algorithms/stablemarriageproblem/StableMarriageProblem.java" />
+        <option value="$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/StableMatching.java" />
+        <option value="$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/Stable.java" />
+        <option value="$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/data.txt" />
+        <option value="$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/StableMarriageProblem.java" />
       </list>
     </option>
   </component>
@@ -64,8 +64,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
     <option name="width" value="1364" />
     <option name="height" value="726" />
   </component>
@@ -84,6 +84,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,7 +152,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -165,7 +165,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/Documents/Irisha/BSU/3 курс/Algorithms/KraskalAlgorithm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PrimAlgorithms" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,7 +190,7 @@
       <option name="MAIN_CLASS_NAME" value="com.main.java.bsu.algorithms.stablemarriageproblem.StableMarriageProblem" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../StableMarriageProblem" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -211,7 +211,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../StableMarriageProblem" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -298,11 +298,12 @@
       <updated>1512461396735</updated>
       <workItem from="1512461401047" duration="3986000" />
       <workItem from="1513010480574" duration="480000" />
+      <workItem from="1513672025601" duration="3359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4466000" />
+    <option name="totallyTimeSpent" value="7825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -348,7 +349,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../StableMarriageProblem/src/com/main/java/bsu/algorithms/stablemarriageproblem/StableMarriageProblem.java">
+    <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/StableMarriageProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -356,9 +357,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../StableMarriageProblem/src/com/main/java/bsu/algorithms/stablemarriageproblem/data/txt.java" />
-    <entry file="file://$PROJECT_DIR$/../StableMarriageProblem/src/com/main/java/bsu/algorithms/stablemarriageproblem/Main.java" />
-    <entry file="file://$PROJECT_DIR$/../StableMarriageProblem/src/com/main/java/bsu/algorithms/stablemarriageproblem/data.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/data.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
@@ -366,10 +365,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../StableMarriageProblem/src/com/main/java/bsu/algorithms/stablemarriageproblem/StableMarriageProblem.java">
+    <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/StableMarriageProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="119" column="84" lean-forward="true" selection-start-line="119" selection-start-column="84" selection-end-line="119" selection-end-column="84" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/data/txt.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/java/bsu/algorithms/stablemarriageproblem/StableMarriageProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding />
         </state>
       </provider>

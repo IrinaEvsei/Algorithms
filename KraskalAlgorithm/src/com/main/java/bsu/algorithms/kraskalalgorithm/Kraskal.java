@@ -1,6 +1,5 @@
 package com.main.java.bsu.algorithms.kraskalalgorithm;
 
-import java.util.Arrays;
 
 public class Kraskal {
 
@@ -38,7 +37,7 @@ public class Kraskal {
         weight=0;
         result[0] = edges[0];
         label[edges[0][SECOND]] = edges[0][FIRST];
-        weight += edges[0][WEIGHT];
+          weight += edges[0][WEIGHT];
         int i = 1;
         for (int j = 1; j<edges.length; j++){
             if (label[edges[j][FIRST]]==label[edges[j][SECOND]]){
@@ -56,7 +55,6 @@ public class Kraskal {
 
             result[i++]=edges[j];
         }
-        System.out.println(Arrays.toString(label));
         return result;
     }
 

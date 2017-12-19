@@ -12,13 +12,15 @@ class Queue {
         rear = -1;
     }
 
-    public void insert(int j) {// Вставка элемента в конец очереди
+    // Вставка элемента в конец очереди
+    public void insert(int j) {
         if(rear == SIZE-1)
             rear = -1;
         queArray[++rear] = j;
     }
 
-    public int remove() {// Извлечение элемента в начале очереди
+    // Извлечение элемента в начале очереди
+    public int remove() {
         int temp = queArray[front++];
         if(front == SIZE)
             front = 0;

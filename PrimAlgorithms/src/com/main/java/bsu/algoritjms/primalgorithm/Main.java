@@ -2,8 +2,8 @@ package com.main.java.bsu.algoritjms.primalgorithm;
 
 import java.util.Arrays;
 
-import static com.main.java.bsu.algoritjms.primalgorithm.Constants.INF;
-import static com.main.java.bsu.algoritjms.primalgorithm.Constants.WEIGHT;
+import static com.main.java.bsu.algoritjms.primalgorithm.Prim.INF;
+import static com.main.java.bsu.algoritjms.primalgorithm.Prim.WEIGHT;
 
 public class Main {
     public static void main(String[] args) {
